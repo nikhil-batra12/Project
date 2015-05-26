@@ -1,0 +1,73 @@
+.thumbnail{
+	postion:relative;
+	border:5px blue solid;
+ 	background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    /* background: linear-gradient(black, grey); Standard syntax (must be last) */
+    background: radial-gradient(white, grey, black);
+
+}
+.thumbnail:hover{
+	border-color: green;
+}
+
+h1{
+	text-align:center;
+	color:#9999FF;
+	font-weight: bold;
+	
+}
+
+.fav{
+	
+	border:4px black solid;
+	background-color:#99FF00;
+	color:black;
+}
+
+.fav:hover{
+	color:blue;
+	background-color:#FF99FF;
+	
+}
+
+.fav:click{
+	border:4px black solid;
+	background-color:#99FF00;
+	color:black;	
+}
+
+.buttonConatiner{
+	text-align:center;
+}
+h3{
+	border:2px black dotted;
+	text-align:center;
+	color:blue;
+	background-color:yellow;
+}
+
+.hotelImg{
+	border:4px black solid;
+}
+
+.glyphicon .glyphicon-heart{
+	color:red;
+	
+}
+
+
+.thumbnail .caption{
+	    color:white;
+}
+
+.tableHeading{
+	color:#33FFCC;
+	font-weight: bold;
+	
+}
+
+.bookingData{
+	color:white;	
+}

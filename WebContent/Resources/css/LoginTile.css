@@ -1,0 +1,49 @@
+@font-face {
+    font-family: myFont;
+    src: url("../fonts/Tua_Typeface.ttf");
+}
+
+
+.Login_form_body{
+		background-image: url("../images/background.jpg"); 
+	 	background-repeat:no-repeat;
+	 	background-size:100% 100%;
+	 	overflow:hidden;
+	 	padding-top:100px;
+	 	margin-left:2px;
+	 	margin-right:2px;
+	 	padding-bottom:100px;
+	 	border:4px solid yellow;
+}
+
+.login-heading{
+	font-family:Florence;
+	text-align:center;
+	color:white;
+}
+
+.submit_button{
+	font-family:Florence;
+	background-color:yellow;
+}
+
+.clear_button{
+	font-family:Florence;
+	margin-left:5px;	
+}
+.modal-backdrop.am-fade {
+  opacity: .5;
+  transition: opacity .15s linear;
+  &.ng-enter {
+    opacity: 0;
+    &.ng-enter-active {
+      opacity: .5;
+    }
+  }
+  &.ng-leave {
+    opacity: .5;
+    &.ng-leave-active {
+      opacity: 0;
+    }
+  }
+}
